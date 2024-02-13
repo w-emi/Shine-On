@@ -23,12 +23,12 @@ nav {
 .head-subtitle {
   background: rgba(255, 249, 249, 0.45);
 }
-.head-subtitle h1 {
+.heading {
   margin: 20px 0 10px;
   font-weight: 700;
   font-size: 38px;
 }
-.head-subtitle p {
+.subtitle {
   margin-bottom: 24px;
   font-weight: 700;
   font-size: 20px;
@@ -36,6 +36,24 @@ nav {
 #about {
   padding: 80px 30px;
   background: aliceblue;
+}
+#about .row {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.shiny-img {
+  width: 450px;
+  max-width: 100%;
+}
+.about-note {
+  margin-left: 60px;
+  max-width: 46%;
+}
+#about p {
+  font-size: 14px;
+  margin-bottom: 24px;
 }
 .btn-booking,
 .btn-booking:hover {
