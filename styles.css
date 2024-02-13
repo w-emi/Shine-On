@@ -78,3 +78,23 @@ nav {
 .service-img {
   width: 300px;
 }
+.footer {
+  padding: 50px 30px 15px;
+}
+.footer .row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.footer ul {
+  list-style: none;
+  line-height: 30px;
+}
+.footer h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
