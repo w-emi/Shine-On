@@ -51,7 +51,7 @@ nav {
   margin-left: 60px;
   max-width: 46%;
 }
-#about p {
+.paragraphs {
   font-size: 14px;
   margin-bottom: 24px;
 }
@@ -60,4 +60,21 @@ nav {
   background: black;
   color: aliceblue;
   padding: 15px 25px;
+}
+.services {
+  padding: 80px 30px;
+  text-align: center;
+  background-color: #cedef4;
+}
+.services .paragraphs {
+  margin: 0 auto;
+  max-width: 530px;
+}
+.services h2 {
+  margin: 20px 0 16px;
+  font-weight: 700;
+  font-size: 32px;
+}
+.service-img {
+  width: 300px;
 }
