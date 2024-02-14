@@ -64,13 +64,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <!-- <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="/"
-                    title="Homepage"
-                    >Home</a
-                  > -->
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >Home</a
+              >
               <a
                 class="nav-link"
                 href="#about"
@@ -79,7 +79,7 @@
               >
               <a
                 class="nav-link"
-                href="#book-online"
+                href="https://xsb0p9ybqko.typeform.com/to/jfVzRFLV"
                 title="Book Online"
                 target="_blank"
                 >Book Online</a
@@ -119,7 +119,10 @@
               party services.Book now and you will be amazed how you have raised
               your child’s party to the next level.
             </p>
-            <a href="#book-online" class="btn btn-booking" title="Projects"
+            <a
+              href="https://xsb0p9ybqko.typeform.com/to/jfVzRFLV"
+              class="btn btn-booking"
+              title="Book Online"
               >Book Online</a
             >
           </div>
@@ -141,7 +144,7 @@
                 alt="Ferry Wheel Water Slide"
                 class="service-img"
               />
-              <h3 class="mt-2 text-start">Ferry Wheel Water Slide</h3>
+              <h3 class="mt-2 text-center">Ferry Wheel Water Slide</h3>
             </div>
             <div>
               <img
@@ -149,7 +152,7 @@
                 alt="Bounce House"
                 class="service-img"
               />
-              <h3 class="mt-2 text-start">Bounce House</h3>
+              <h3 class="mt-2 text-center">Bounce House</h3>
             </div>
             <div>
               <img
@@ -157,7 +160,7 @@
                 alt="Concession Food Maker"
                 class="service-img"
               />
-              <h3 class="mt-2 text-start">Concession Food Maker</h3>
+              <h3 class="mt-2 text-center">Concession Food Maker</h3>
             </div>
             <div>
               <img
@@ -165,7 +168,7 @@
                 alt="Mascot Rentals"
                 class="service-img"
               />
-              <h3 class="mt-2 text-start">Mascot Rentals</h3>
+              <h3 class="mt-2 text-center">Mascot Rentals</h3>
             </div>
             <div>
               <img
@@ -173,15 +176,7 @@
                 alt="Balloon Animals"
                 class="service-img"
               />
-              <h3 class="mt-2 text-start">Balloon Animals</h3>
-            </div>
-            <div>
-              <img
-                src="assets/rental_popcorn_cart_full-package.jpg"
-                alt="Private Parties Full Setup"
-                class="service-img"
-              />
-              <h3 class="mt-2 text-start">Private Parties Full Setup</h3>
+              <h3 class="mt-2 text-center">Balloon Animals</h3>
             </div>
           </div>
         </div>
@@ -231,6 +226,19 @@
           ],
         });
       });
+
+      $(document).ready(function () {
+        $(".nav-link").click(function () {
+          // Remove the active class from all nav links
+          $(".nav-link").removeClass("active");
+
+          // Add the active class to the clicked link
+          $(this).addClass("active");
+        });
+      });
     </script>
   </body>
+
+  <!-- Embedded booking form -->
+  <!-- <div data-tf-widget="jfVzRFLV" data-tf-opacity="100" data-tf-iframe-props="title=Shine-On Party Kids Rentals" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script> -->
 </html>
