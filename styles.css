@@ -18,7 +18,7 @@ nav {
   font-weight: bold;
 }
 .hero {
-  background: url(assets/carnival-of-the-ages.jpg);
+  background: url(assets/palm-trees.jpg);
   background-size: cover;
   text-align: center;
   padding: 180px 30px;
@@ -105,4 +105,69 @@ nav {
   text-decoration: none;
   color: black;
   font-size: 14px;
+}
+
+/* Add this CSS after your existing styles */
+
+/* Improve spacing for smaller devices */
+@media screen and (max-width: 767px) {
+  .hero {
+    padding: 120px 15px;
+  }
+  .head-subtitle {
+    padding: 20px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  #about {
+    padding: 60px 15px;
+  }
+  .shiny-img {
+    width: 100%;
+  }
+  .about-note {
+    margin-left: 0;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  .services {
+    padding: 60px 15px;
+  }
+  .services h2 {
+    font-size: 28px;
+  }
+  .services h3 {
+    font-size: 18px;
+  }
+  .service-img {
+    width: 100%;
+  }
+  .footer {
+    padding: 30px 15px 15px;
+  }
+}
+
+/* Improve spacing for extra small devices */
+@media screen and (max-width: 479px) {
+  .nav-link {
+    margin-left: 10px;
+  }
+  .about-note {
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+  .services .paragraphs {
+    padding: 0 15px;
+  }
+  .footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer ul {
+    padding-left: 0;
+  }
 }
